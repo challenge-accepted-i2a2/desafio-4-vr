@@ -1,0 +1,7 @@
+crewai
+crewai_tools
+pandas
+openpyxl
+pyautogen
+dotenv
+langchain_google_genai
