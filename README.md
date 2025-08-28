@@ -97,12 +97,12 @@ O sistema gera:
 
 ## Contribuidores
 
-- **Carlos Jorge** (cacjorge)
-- **Kattson Bastos** (KattsonBastos)
-- **Letícia Ferreira Murça** (leticiaferreiramurca)
+- **Carlos Antônio Campos Jorge**
 - **Claudio Fagundes Pereira**
 - **David de Freitas Neto**
 - **Filipe do Rego Barros Luz**
+- **Kattson Alves Bastos**
+- **Letícia Ferreira Murça Reis**
 - **Raphael Vinholes Bichiarov**
 - **Renato Azevedo Sant’Anna**
 - **Thayron Sabino Alves dos Santos**
