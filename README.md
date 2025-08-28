@@ -100,6 +100,12 @@ O sistema gera:
 - **Carlos Jorge** (cacjorge)
 - **Kattson Bastos** (KattsonBastos)
 - **Letícia Ferreira Murça** (leticiaferreiramurca)
+- **Claudio Fagundes Pereira**
+- **David de Freitas Neto**
+- **Filipe do Rego Barros Luz**
+- **Raphael Vinholes Bichiarov**
+- **Renato Azevedo Sant’Anna**
+- **Thayron Sabino Alves dos Santos**
 
 ## Licença
 
