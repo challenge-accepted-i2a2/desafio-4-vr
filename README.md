@@ -13,29 +13,25 @@ Este projeto é um sistema automatizado para processamento de dados de Vale Refe
 ## Estrutura do Projeto
 
 ```
-desafio-4-vr/
-├── data/                    # Arquivos de dados Excel
-├── tools/                   # Ferramentas especializadas
-├── agents.py               # Definição dos agentes de IA
-├── tasks.py                # Definição das tarefas
-├── main.py                 # Arquivo principal de execução
-├── run_pipeline.py         # Script de pipeline
-├── run_pipeline_debug.py   # Script de pipeline com debug
-├── requirements.txt        # Dependências do projeto
-└── .gitignore             # Exclusões do Git
+desafio-4-vr/               
+├── requirements.txt         # Dependências do projeto
+├── .gitignore               # Exclusões do Git
+└── src/                     # diretório principal com a implementação
+    ├── aux_functions.py     # funções auxiliares usadas pelso agentes
+    ├── data/                # Arquivos de dados Excel
+    ├── main.py              # Arquivo principal de execução com os agentes
+    ├── outputs/             # Diretório para armazenar arquivos de resultados
+    └── tools.py             # Ferramentas especializadas
 ```
 
 ## Funcionamento do Sistema
 
-O sistema utiliza 7 agentes especializados que trabalham em sequência:
+O sistema utiliza 4 agentes especializados que trabalham em sequência:
 
 1. **Data Loader Agent** - Carrega dados dos arquivos Excel
-2. **Consistency Agent** - Verifica e limpa inconsistências
-3. **Data Consolidation Agent** - Consolida dados em um DataFrame único
-4. **Exclusion Agent** - Aplica regras de exclusão de funcionários
-5. **Validation Agent** - Valida e corrige dados
-6. **Calculation Agent** - Calcula valores de VR
-7. **Report Agent** - Gera relatório final em Excel
+2. **Data Consolidation Agent** - Consolida dados em um DataFrame único
+3. **Calculation Agent** - Calcula valores de VR
+4. **Report Agent** - Gera relatório final em Excel
 
 ## Instalação
 
@@ -53,7 +49,7 @@ pip install -r requirements.txt
 3. Configure as variáveis de ambiente:
 ```bash
 # Crie um arquivo .env com:
-OPENAI_KEY_API=sua_chave_openai_aqui
+GOOGLE_API_KEY=sua_chave_aqui
 ```
 
 ## Uso
@@ -61,16 +57,6 @@ OPENAI_KEY_API=sua_chave_openai_aqui
 Execute o processamento completo:
 ```bash
 python main.py
-```
-
-Ou use o pipeline:
-```bash
-python run_pipeline.py
-```
-
-Para debug:
-```bash
-python run_pipeline_debug.py
 ```
 
 ## Arquivos de Dados
@@ -91,9 +77,7 @@ O sistema processa os seguintes arquivos Excel da pasta `data/`:
 ## Saída
 
 O sistema gera:
-- **VR_Report.xlsx** - Relatório final para operadora de VR
-- **VR_Report.csv** - Versão CSV do relatório
-- Arquivos intermediários em formato pickle para cada etapa
+- **VR_MENSAL_05.2025.xlsx** - Relatório final para operadora de VR
 
 ## Contribuidores
 
