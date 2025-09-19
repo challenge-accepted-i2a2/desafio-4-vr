@@ -15,7 +15,7 @@ def load_data():
         'ESTAGIO': 'ESTÁGIO.xlsx',
         'EXTERIOR': 'EXTERIOR.xlsx',
         'FERIAS': 'FÉRIAS.xlsx',
-        'VRMENSAL': 'VRMENSAL05.2025.xlsx'
+        'VRMENSAL': 'VR MENSAL 05.2025.xlsx'
     }
 
     for name, filename in files.items():
