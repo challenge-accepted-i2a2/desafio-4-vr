@@ -77,7 +77,7 @@ O sistema processa os seguintes arquivos Excel da pasta `data/`:
 ## Saída
 
 O sistema gera:
-- **VR_MENSAL_05.2025.xlsx** - Relatório final para operadora de VR
+- **VR MENSAL 05.2025.xlsx** - Relatório final para operadora de VR
 
 ## Contribuidores
 
