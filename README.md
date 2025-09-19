@@ -69,7 +69,7 @@ O sistema processa os seguintes arquivos Excel da pasta `data/`:
 - **APRENDIZ.xlsx** - Funcionários aprendizes
 - **ESTÁGIO.xlsx** - Estagiários
 - **EXTERIOR.xlsx** - Funcionários no exterior
-- **VRMENSAL05.2025.xlsx** - Dados mensais de VR
+- **VR MENSAL 05.2025.xlsx** - Dados mensais de VR
 - **Basesindicatoxvalor.xlsx** - Base sindical x valores
 - **Basediasuteis.xlsx** - Base de dias úteis
 - **ADMISSÃOABRIL.xlsx** - Admissões de abril
